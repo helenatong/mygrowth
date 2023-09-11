@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  
+  <servlet> 
+    <servlet-name>ConnectionForm</servlet-name>
+    <servlet-class>com.site.forms.ConnectionForm</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ConnectionForm</servlet-name>
+    <url-pattern>/connexion</url-pattern>
+  </servlet-mapping>  
+
+
+
+
+  <servlet> 
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>com.site.servlets.Accueil</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/accueil</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet> 
+    <servlet-name>Calculateur</servlet-name>
+    <servlet-class>com.site.forms.Calculateur</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Calculateur</servlet-name>
+    <url-pattern>/calculateur</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+<servlet> 
+    <servlet-name>ServletSQL</servlet-name>
+    <servlet-class>com.site.servlets.ServletSQL</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ServletSQL</servlet-name>
+    <url-pattern>/sql</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+ 	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+		</jsp-property-group>
+	</jsp-config>
+  
+</web-app>
