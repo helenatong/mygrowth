@@ -16,6 +16,6 @@
 </body>
 <footer>
 	<br><br><br><br><br><br><br><br><br>
-	<a href="/Site/rejoindre">Rejoins notre équipe de dev ! *mettre une image fusée*</a>
+	<a href="/Site/nousRejoindre">Rejoins notre équipe de dev ! *mettre une image fusée*</a>
 </footer>
 </html>
